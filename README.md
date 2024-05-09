@@ -17,20 +17,18 @@ Before you begin, ensure that you have the following prerequisites installed:
 
 3) copy .env.example and save it as a .env file Create a database name database-name. Adjust the database credentials in the .env file according to your MySQL configuration
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=database-name
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_DATABASE=database-name
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 4) Then run the following commands
-composer install
-php artisan key:generate
-php artisan migrate
-php artisan serve
- 
- 
-Also This Project runs on php 8.1+
+    composer install
+    composer dump-autoload
+    php artisan key:generate
+    php artisan migrate
+    php artisan serve
+    
+5) Access the Application:
+   Open your web browser and navigate to [http://localhost:8000] or the specified URL.
 
-If any problem with composer arises delete composer.lock file and vendor folder from project directory then run composer install again
+   
