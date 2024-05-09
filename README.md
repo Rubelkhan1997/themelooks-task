@@ -18,19 +18,19 @@ git clone https://github.com/Rubelkhan1997/themelooks-task.git
    
 2. Navigate to the Project Directory:
 
-   cd themelooks-task
+cd themelooks-task
 
 3. Copy the Environment File:
 
-copy .env.example and save it as a .env file Create a database name "themelooks" and import it into Database. Adjust the database credentials in the .env file according to your MySQL configuration
+copy .env.example and save it as a .env file Create a database name "themelooks" and import it into the Database. Adjust the database credentials in the .env file according to your MySQL configuration  
 
 4. Install PHP Dependencies via Composer:
 
-   composer install
+composer install
 
 5. Generate Application Key:
 
-   php artisan key:generate
+php artisan key:generate
 
 6. Start the Development Server:
 
@@ -38,4 +38,4 @@ copy .env.example and save it as a .env file Create a database name "themelooks"
   
 7. Access the Application:
 
-    Open your web browser and navigate to [http://localhost:8000] or the specified URL.
+Open your web browser and navigate to [http://localhost:8000] or the specified URL.
